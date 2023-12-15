@@ -13,7 +13,7 @@ class Player():
 class PlayerUpgraded():
     def __init__(self, name, turn_count):
         super().__init__(name)
-        #TODO: create powerups AFTER all game and player functions are done
+        # TODO: create powerups AFTER all game and player functions are done
 
 class Game():
     def __init__(self, player1, player2):
@@ -35,6 +35,9 @@ class Game():
     def reset(self):
          self.board = [[0, 0, 0],[0, 0, 0], [0, 0, 0]]
          # reset any other vals
+    def play(self):
+         # TODO: add gameplay
+         pass
 
 if __name__ == "__main__":
     name1 = input("Enter player 1 name:" )
